@@ -1,0 +1,8 @@
+.git
+.gitignore
+.dockerignore
+.env
+.env.local
+*.md
+docs/
+compose.yaml
