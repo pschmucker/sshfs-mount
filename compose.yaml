@@ -1,0 +1,25 @@
+services:
+  sshfs-mount:
+    image: pschmucker/sshfs-mount:latest
+    volumes:
+      - ${SSHFS_MOUNT_PATH}:/mnt/sshfs
+      - ${SSHFS_PRIVATE_KEY_PATH}:/root/.ssh/id_rsa:ro
+    environment:
+      - SSHFS_REMOTE_XXX_NAME=${XXX_NAME}
+      - SSHFS_REMOTE_XXX_USERNAME=${XXX_USERNAME}
+      - SSHFS_REMOTE_XXX_HOST=${XXX_HOST}
+      - SSHFS_REMOTE_XXX_PATH=${XXX_PATH}
+      - SSHFS_REMOTE_XXX_UID=${XXX_UID}
+      - SSHFS_REMOTE_XXX_GID=${XXX_GID}
+      - SSHFS_REMOTE_YYY_NAME=${YYY_NAME}
+      - SSHFS_REMOTE_YYY_USERNAME=${YYY_USERNAME}
+      - SSHFS_REMOTE_YYY_HOST=${YYY_HOST}
+      - SSHFS_REMOTE_YYY_PATH=${YYY_PATH}
+      - SSHFS_REMOTE_YYY_UID=${YYY_UID}
+      - SSHFS_REMOTE_YYY_GID=${YYY_GID}
+      - SSHFS_REMOTE_ZZZ_NAME=${ZZZ_NAME}
+      - SSHFS_REMOTE_ZZZ_USERNAME=${ZZZ_USERNAME}
+      - SSHFS_REMOTE_ZZZ_HOST=${ZZZ_HOST}
+      - SSHFS_REMOTE_ZZZ_PATH=${ZZZ_PATH}
+      - SSHFS_REMOTE_ZZZ_UID=${ZZZ_UID}
+      - SSHFS_REMOTE_ZZZ_GID=${ZZZ_GID}
