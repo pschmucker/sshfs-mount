@@ -1,6 +1,6 @@
 services:
   sshfs-mount:
-    image: pschmucker/sshfs-mount:latest
+    image: techn0phil/sshfs-mount:latest
     container_name: sshfs-mount
     restart: unless-stopped
     stop_grace_period: 30s

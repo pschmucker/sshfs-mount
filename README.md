@@ -1,8 +1,8 @@
 # SSHFS Mount Docker Image
 
-[![Release](https://img.shields.io/github/v/release/pschmucker/sshfs-mount?label=Release&color=%231D9E75)](github.com/pschmucker/sshfs-mount/releases)
-[![Trivy](https://img.shields.io/github/actions/workflow/status/pschmucker/sshfs-mount/trivy.yml?logo=github&label=Trivy&labelColor=%23323940)](https://github.com/pschmucker/sshfs-mount/actions/workflows/trivy.yml)
-[![Grype](https://img.shields.io/github/actions/workflow/status/pschmucker/sshfs-mount/grype.yml?logo=github&label=Grype&labelColor=%23323940)](https://github.com/pschmucker/sshfs-mount/actions/workflows/grype.yml)
+[![Release](https://img.shields.io/github/v/release/techn0phil/sshfs-mount?label=Release&color=%231D9E75)](github.com/techn0phil/sshfs-mount/releases)
+[![Trivy](https://img.shields.io/github/actions/workflow/status/techn0phil/sshfs-mount/trivy.yml?logo=github&label=Trivy&labelColor=%23323940)](https://github.com/techn0phil/sshfs-mount/actions/workflows/trivy.yml)
+[![Grype](https://img.shields.io/github/actions/workflow/status/techn0phil/sshfs-mount/grype.yml?logo=github&label=Grype&labelColor=%23323940)](https://github.com/techn0phil/sshfs-mount/actions/workflows/grype.yml)
 
 This Docker image provides a container-based SSHFS mount service for mounting remote filesystems over SSH.
 
@@ -52,7 +52,7 @@ This mounts `user@storage.example.com:/home/user/data` to `/mnt/sshfs/storage`.
 ```yaml
 services:
   sshfs-mount:
-    image: pschmucker/sshfs-mount:latest
+    image: techn0phil/sshfs-mount:latest
     container_name: sshfs-mount
     restart: unless-stopped
     stop_grace_period: 30s
@@ -86,7 +86,7 @@ services:
 ## Building the Image
 
 ```bash
-docker build -t pschmucker/sshfs-mount:latest .
+docker build -t techn0phil/sshfs-mount:latest .
 ```
 
 ## Security Considerations
