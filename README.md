@@ -1,6 +1,6 @@
 # SSHFS Mount Docker Image
 
-[![Release](https://img.shields.io/github/v/release/techn0phil/sshfs-mount?label=Release&color=%231D9E75)](github.com/techn0phil/sshfs-mount/releases)
+[![Release](https://img.shields.io/github/v/release/techn0phil/sshfs-mount?label=Release&color=blue)](github.com/techn0phil/sshfs-mount/releases)
 [![Trivy](https://img.shields.io/github/actions/workflow/status/techn0phil/sshfs-mount/trivy.yml?logo=github&label=Trivy&labelColor=%23323940)](https://github.com/techn0phil/sshfs-mount/actions/workflows/trivy.yml)
 [![Grype](https://img.shields.io/github/actions/workflow/status/techn0phil/sshfs-mount/grype.yml?logo=github&label=Grype&labelColor=%23323940)](https://github.com/techn0phil/sshfs-mount/actions/workflows/grype.yml)
 
