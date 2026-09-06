@@ -1,5 +1,9 @@
 # SSHFS Mount Docker Image
 
+[![Release](https://img.shields.io/github/v/release/pschmucker/sshfs-mount?label=Release&color=%231D9E75)](github.com/pschmucker/sshfs-mount/releases)
+[![Trivy](https://img.shields.io/github/actions/workflow/status/pschmucker/sshfs-mount/trivy.yml?logo=github&label=Trivy&labelColor=%23323940)](https://github.com/pschmucker/sshfs-mount/actions/workflows/trivy.yml)
+[![Grype](https://img.shields.io/github/actions/workflow/status/pschmucker/sshfs-mount/grype.yml?logo=github&label=Grype&labelColor=%23323940)](https://github.com/pschmucker/sshfs-mount/actions/workflows/grype.yml)
+
 This Docker image provides a container-based SSHFS mount service for mounting remote filesystems over SSH.
 
 ## Features
