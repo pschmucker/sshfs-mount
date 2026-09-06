@@ -1,7 +1,7 @@
 FROM alpine:3.24.1
 
 # Install SSHFS and dependencies
-RUN apk add --no-cache \
+RUN apk update && apk upgrade --no-cache && apk add --no-cache \
     sshfs \
     openssh-client \
     bash \
